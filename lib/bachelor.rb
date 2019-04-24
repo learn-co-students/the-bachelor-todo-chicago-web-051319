@@ -60,7 +60,7 @@ def get_occupation(data, hometown)
           a = contestant["occupation"].to_s
           puts "#{contestant[:name]} is a #{a}"
           return a
-          break
+          #break
         end
       end
       
